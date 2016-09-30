@@ -13,6 +13,7 @@ Student: [Evgeniy_Krupen](https://upsa.epam.com/workload/employeeView.do?employe
 ![](https://github.com/evgeniy-krupen/ldap/blob/task1/task1/screenshots/ldap-3.png)
 
 ***5. I set up phpldapadmin***
+
 ![](https://github.com/evgeniy-krupen/ldap/blob/task1/task1/screenshots/ldap-4.png)
 
 ***6. I created new group and new user by WebUI***
