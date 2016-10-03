@@ -66,6 +66,10 @@ $ ldapsearch -h localhost -D "cn=admin,dc=mnt,dc=lab" -W -b "dc=mnt,dc=lab" 'mem
 
 ![](https://github.com/evgeniy-krupen/ldap/blob/task2/task2/screenshots/l12.png)
 
+add line below in /etc/nslcd.conf
+
+filter passwd (&(objectClass=posixAccount)(memberOf=cn=Linux,ou=Groups,dc=mnt,dc=lab))
+
 $ authconfig --enableldap --enableldapauth --ldapserver=ldap://192.168.25.115/ --ldapbasedn=dc=mnt,dc=lab --disablefingerprint --kickstart --enablemkhomedir
 
 ![](https://github.com/evgeniy-krupen/ldap/blob/task2/task2/screenshots/l13.png)
