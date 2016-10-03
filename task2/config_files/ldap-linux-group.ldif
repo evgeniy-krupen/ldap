@@ -1,0 +1,7 @@
+# Linux, Services, mnt.lab
+dn: cn=Linux,ou=Groups,dc=mnt,dc=lab
+cn: Linux
+member: uid=user1,ou=People,dc=mnt,dc=lab
+objectClass: groupOfNames
+objectClass: top
+
