@@ -1,0 +1,56 @@
+# user1, Groups, mnt.lab
+dn: cn=user1,ou=Groups,dc=mnt,dc=lab
+cn: user1
+gidNumber: 10505
+objectClass: posixGroup
+objectClass: top
+memberUid: user1
+
+# user1, People, mnt.lab
+dn: uid=user1,ou=People,dc=mnt,dc=lab
+uid: user1
+homeDirectory: /home/user1
+loginShell: /bin/bash
+mail: user1@local
+uidNumber: 10505
+gidNumber: 10505
+gecos: User In LDAP
+cn: User In LDAP
+givenName: user1
+sn: InLDAP
+objectClass: top
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+userPassword: password
+
+# user2, Groups, mnt.lab
+dn: cn=user2,ou=Groups,dc=mnt,dc=lab
+cn: user2
+gidNumber: 10506
+objectClass: posixGroup
+objectClass: top
+memberUid: user2
+
+# user2, People, mnt.lab
+dn: uid=user2,ou=People,dc=mnt,dc=lab
+uid: user2
+homeDirectory: /home/user2
+loginShell: /bin/bash
+mail: user1@local
+uidNumber: 10506
+gidNumber: 10506
+gecos: User In LDAP
+cn: User In LDAP
+givenName: user2
+sn: InLDAP
+objectClass: top
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+userPassword: password
+

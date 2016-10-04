@@ -1,0 +1,8 @@
+# zabbix, Services, mnt.lab
+dn: cn=Zabbix,ou=Services,dc=mnt,dc=lab
+cn: Zabbix
+member: uid=user1,ou=People,dc=mnt,dc=lab
+member: uid=user2,ou=People,dc=mnt,dc=lab
+objectClass: groupOfNames
+objectClass: top
+
